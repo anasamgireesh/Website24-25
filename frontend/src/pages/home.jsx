@@ -1,5 +1,5 @@
 import React from "react";
-import Volunteer_details from "./Volunteer_stories";
+import Volunteer_details from "../components/Volunteer_stories.jsx";
 import styles from "./home.module.css";
 import Logo1 from "../assets/logos/NSS-Logo.png";
 import Logo2 from "../assets/logos/Thanjavur_medical_college.jpg"
