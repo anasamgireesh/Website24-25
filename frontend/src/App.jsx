@@ -1,10 +1,12 @@
 import Home from './pages/home';
+import Events from './pages/Events';
+import Events_admin from './pages/Events_admin';
 import './App.css'
 
 function App() {
   return (
     <>
-    <Home/>
+    <Events_admin/>
     </>
   )
 }
