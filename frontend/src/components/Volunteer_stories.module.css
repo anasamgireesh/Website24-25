@@ -1,6 +1,6 @@
 .stories{
-    height: 21rem;
-    width: 11rem;
+    height: 22rem;
+    width: 12rem;
     background-color: #747274;
     border-radius: 1rem;
     padding: 0.5rem;
@@ -26,6 +26,7 @@
 .story{
     font-weight: 600;
     margin-top: 1rem;
+ 
 }
 
 .name{

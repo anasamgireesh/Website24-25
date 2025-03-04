@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Volunteer_stories.module.css";
 
-function Volunteer_stories() {
+function Volunteer_stories(props) {
   return (
     <>
       <div className={styles.main}>
@@ -10,10 +10,9 @@ function Volunteer_stories() {
             <img src="" alt="" />
           </div>
           <div className={styles.story}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nam
-            eligendi recusandae.Lorem ipsum dolor sit amet consectetur
+            {props.story}
           </div>
-          <div className={styles.name}>~John Doe</div>
+          <div className={styles.name}>{props.name}</div>
         </div>
       </div>
     </>

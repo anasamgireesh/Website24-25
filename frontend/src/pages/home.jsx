@@ -5,6 +5,7 @@ import Logo1 from "../assets/logos/NSS-Logo.png";
 import Logo2 from "../assets/logos/Thanjavur_medical_college.jpg"
 import Logo3 from "../assets/logos/Kauvery_hospital.jpeg"
 import Logo4 from "../assets/logos/Group_pic.jpg"
+import Footer from "../components/Footer.jsx";
 
 
 const Home = () => {
@@ -26,11 +27,7 @@ const Home = () => {
         <img src={Logo1} alt="" className={styles.club_logo} />
       </div>
 
-      {/*Sponsers*/}
-      <div className={styles.sponsers}>
-        <img src={Logo2} alt="" className={styles.sponsers_1}/>
-        <img src={Logo3} alt="" className={styles.sponsers_2} />
-      </div>
+      
 
       {/*Places Served*/}
       <div className={styles.places}>
@@ -78,14 +75,16 @@ const Home = () => {
 
       {/* Volunteer Stories */}
       <div className={styles.stories}>
-        <Volunteer_details/>
-        <Volunteer_details/>   
-        <Volunteer_details/>
-        <Volunteer_details/>     
-        <Volunteer_details/>
-        <Volunteer_details/>  
-        <Volunteer_details/>
+        <Volunteer_details name='~JohnDoe' story='lorem'/>
+        <Volunteer_details name='~JohnDoe' story='lorem'/>   
+        <Volunteer_details name='~JohnDoe' story='lorem'/>
+        <Volunteer_details name='~JohnDoe' story='lorem'/>     
+        <Volunteer_details name='~JohnDoe' story='lorem'/>
+        <Volunteer_details name='~JohnDoe' story='lorem'/>  
+        <Volunteer_details name='~JohnDoe' story='lorem'/>
       </div> 
+
+      <Footer/>
     </>
   );
 };
